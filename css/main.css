@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+  direction: rtl;
+  text-align: left;
+  vertical-align: top;
+  display: inline-block;
+}
+
+ul li{
+  display: inline-block;
+  line-height: 0;
+  font-size: 0;
+  margin: 8px;
+}
+
+button{
+  width: 48px;
+  height: 48px;
+}
+
+#numbers{
+  width: 200px;
+}
+
+#operators{
+  width: 150px;
+}
+
+main{
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  width: 500px;
+  position: relative;
+}
+
+html, body{
+  height: 100%;
+  min-height: 100%
+}
